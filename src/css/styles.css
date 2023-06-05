@@ -77,7 +77,6 @@ body {
 /* Tela pós-morte */
 .end-screen {
     width: 50vh;
-    /* margin: -40px; */
     position: absolute;
     top: 46vh;
     left: 85vh;
@@ -165,13 +164,10 @@ body {
         font-size: 1rem;
     }
 
-    /* .end-screen {
+    .end-screen {
         width: 50vh;
-        margin: -40px;
         position: absolute;
-        top: 20vh;
-        left: 7vh;
-    } */
+        top: 42vh;
+        left: 3vh;
+    }
 }
-
-/* Não está 100% otimizado para plataformas mobile, ainda precisa de alguns ajustes */
