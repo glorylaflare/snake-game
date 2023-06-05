@@ -77,12 +77,15 @@ body {
 /* Tela pós-morte */
 .end-screen {
     width: 50vh;
-    margin: -40px;
-    position: relative;
-    top: 30vh;
-    left: 16vh;
+    /* margin: -40px; */
+    position: absolute;
+    top: 46vh;
+    left: 85vh;
 
-    display: grid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
     color: var(--secundary-color);
     text-align: center;
@@ -90,16 +93,17 @@ body {
 
 .end-screen span {
     font-size: 14px;
+    margin-bottom: 5px;
 }
 
 .end-screen p {
     font-size: 11px;
+    margin-bottom: 10px;
 }
 
 .end-screen button {
     width: 30%;
-    position: relative;
-    left: 33%;
+    padding: 5px 0;
 
     border: 1px solid var(--secundary-color);
     background: transparent;
@@ -161,13 +165,13 @@ body {
         font-size: 1rem;
     }
 
-    .end-screen {
+    /* .end-screen {
         width: 50vh;
         margin: -40px;
-        position: relative;
+        position: absolute;
         top: 20vh;
         left: 7vh;
-    }
+    } */
 }
 
 /* Não está 100% otimizado para plataformas mobile, ainda precisa de alguns ajustes */
